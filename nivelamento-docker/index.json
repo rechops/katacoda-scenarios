@@ -2,50 +2,63 @@
     "title": "Curso de Nivelamento de Docker",
     "description": "Exercício criado para exercitar conhecimentos e comandos rotineiros em Docker",
     "details": {
-      "steps": [
-        {
-          "title": "1) Verifique se Docker está funcionando na sua máquina",
-          "text": "step1.md"
+        "steps": [
+            {
+                "title": "1) Verifique se Docker está funcionando na sua máquina",
+                "text": "step1.md"
+            },
+            {
+                "title": "Docker run",
+                "text": "step2.md"
+            },
+            {
+                "title": "2) Executar MongoDB em um contêiner",
+                "text": "step3.md",
+                "verify": "step3-verify.sh"
+            },
+            {
+                "title": "Docker run",
+                "text": "step4.md"
+            },
+            {
+                "title": "Docker ps",
+                "text": "step5.md"
+            },
+            {
+                "title": "Uma nota sobre dockerizar banco de dados",
+                "text": "step6.md"
+            },
+            {
+                "title": "Cozinhando dados para desenvolvimento local",
+                "text": "step7.md"
+            },
+            {
+                "title": "Criando o artefato",
+                "text": "step8.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "courseData": "courseBase.sh",
+            "code": "show_progress.sh"
         },
-        {
-          "title": "Docker run",
-          "text": "step2.md"
-        },
-        {
-          "title": "2) Executar MongoDB em um contêiner",
-          "text": "step3.md",
-          "verify": "step3-verify.sh"
-        },
-        {
-          "title": "Docker run",
-          "text": "step4.md"
-        },
-        {
-          "title": "Docker ps",
-          "text": "step5.md"
-        },
-        {
-          "title": "Uma nota sobre dockerizar banco de dados",
-          "text": "step6.md"
-        },
-        {
-          "title": "Cozinhando dados para desenvolvimento local",
-          "text": "step7.md"
-        },
-        {
-          "title": "Criando o artefato",
-          "text": "step8.md"
+        "assets": {
+            "host01": [
+                {
+                    "file": "show_progress.sh",
+                    "target": "/usr/local/bin/",
+                    "chmod": "+x"
+                }
+            ]
         }
-      ],
-      "intro": {
-        "text": "intro.md",
-        "courseData": "courseBase.sh"
-      }
     },
     "environment": {
         "showdashboard": true,
         "dashboards": [
-            {"name": "Port 8099", "port": 8099}
+            {
+                "name": "Port 8099",
+                "port": 8099
+            }
         ],
         "terminals": [
             {
@@ -57,6 +70,6 @@
         "uilayout": "editor-terminal"
     },
     "backend": {
-      "imageid": "docker"
+        "imageid": "docker"
     }
-  }
+}

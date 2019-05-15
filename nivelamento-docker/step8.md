@@ -4,7 +4,7 @@
 4) (Opcional) Executar localmente a aplicação (requer Java 8 configurado);
 
 
-`git clone --depth 1 --branch master \ https://github.com/ThoughtWorksInc/voter-service.git`{{execute}}
+`git clone --depth 1 --branch master https://github.com/ThoughtWorksInc/voter-service.git`{{execute}}
 
 `cd voter-service`{{execute}}
 

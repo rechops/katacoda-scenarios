@@ -45,7 +45,7 @@
         "assets": {
             "host01": [
                 {
-                    "file": "show_progress.sh",
+                    "file": "*",
                     "target": "/usr/local/bin/",
                     "chmod": "+x"
                 }

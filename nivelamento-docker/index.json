@@ -51,7 +51,6 @@
         "uilayout": "editor-terminal"
     },
     "backend": {
-      "imageid": "docker",
-      "port": 8099
+      "imageid": "docker"
     }
   }

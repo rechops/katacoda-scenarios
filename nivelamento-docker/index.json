@@ -1,0 +1,25 @@
+{
+    "title": "Curso de Nivelamento de Docker",
+    "description": "Exercício criado para exercitar conhecimentos e comandos rotineiros em Docker",
+    "details": {
+      "steps": [
+        {
+          "title": "1) Verifique se Docker está funcionando na sua máquina",
+          "text": "step1.md"
+        },
+        {
+          "title": "Docker run",
+          "text": "step2.md"
+        }
+      ],
+      "intro": {
+        "text": "intro.md"
+      }
+    },
+    "environment": {
+      "uilayout": "editor-terminal"
+    },
+    "backend": {
+      "imageid": "docker"
+    }
+  }

@@ -44,17 +44,9 @@
         }
     },
     "environment": {
-        "showdashboard": true,
-        "dashboards": [
-            {
-                "name": "Port 8099",
-                "port": 8099
-            }
-        ],
         "terminals": [
             {
-                "name": "Voter Service",
-                "command": "curl localhost:8099",
+                "name": "Terminal 2",
                 "target": "host01"
             }
         ],

@@ -15,4 +15,4 @@
 
 
 
-Teste em: https://[[HOST_SUBDOMAIN]]-8099-[[KATACODA_HOST]].environments.katacoda.com/candidates
+Execute o seguinte comando no Terminal 2: `curl localhost:8099` {{execute T2}}

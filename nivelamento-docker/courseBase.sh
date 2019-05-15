@@ -1,5 +1,5 @@
 apt update -y && apt upgrade -y
-sudo apt install openjdk-8-jdk -y
+apt install openjdk-8-jdk -y
 
 docker pull hello-world
 

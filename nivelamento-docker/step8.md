@@ -1,6 +1,7 @@
 #### Atividade
 
-3) Clonar o repositório da API de votação; 
+3) Clonar o repositório da API de votação;
+
 4) (Opcional) Executar localmente a aplicação (requer Java 8 configurado);
 
 
@@ -14,4 +15,4 @@
 
 
 
-Teste em: http://localhost:8099/candidates
+Teste em: https://[[HOST_SUBDOMAIN]]-8099-[[KATACODA_HOST]].environments.katacoda.com/candidates

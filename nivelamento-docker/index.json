@@ -40,7 +40,16 @@
         "intro": {
             "text": "intro.md",
             "courseData": "courseBase.sh",
-            "code": "show_progress.sh"
+            "code": "intro-foreground.sh"
+        },
+        "assets": {
+            "host01": [
+                {
+                    "file": "show_progress.sh",
+                    "target": "/usr/local/bin/",
+                    "chmod": "+x"
+                }
+            ]
         }
     },
     "environment": {

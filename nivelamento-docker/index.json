@@ -45,8 +45,14 @@
     "environment": {
         "showdashboard": true,
         "dashboards": [
-            {"name": "Port 8099", "port": 8099},
-            {"name": "Voter Service", "href": "https://[[HOST_SUBDOMAIN]]-8099-[[KATACODA_HOST]].environments.katacoda.com/candidates"}
+            {"name": "Port 8099", "port": 8099}
+        ],
+        "terminals": [
+            {
+                "name": "Voter Service",
+                "command": "curl localhost:8099",
+                "target": "host01"
+            }
         ],
         "uilayout": "editor-terminal"
     },

@@ -15,4 +15,4 @@
 
 
 
-Execute o seguinte comando no Terminal 2: `curl localhost:8099` {{execute T2}}
+Execute o seguinte comando no Terminal 2: `curl localhost:8099`{{execute T2}}

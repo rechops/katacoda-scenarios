@@ -1,0 +1,4 @@
+- Como `db/seeds.rb` do Ruby, podemos ter uma base de dados em contêiner com informações pré-inicializadas para desenvolvimento local;
+- Dados para testes e cenários importantes para testar durante o desenvolvimento;
+- Ter um contêiner com dados possibilita reduzir o impacto de manter toda manutenção de um Banco de Dados na sua máquina ou na nuvem;
+- Existe um porém: requer maturidade do time em evoluir esse banco de acordo com o progresso do seu produto;

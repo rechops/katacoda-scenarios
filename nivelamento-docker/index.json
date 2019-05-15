@@ -10,6 +10,30 @@
         {
           "title": "Docker run",
           "text": "step2.md"
+        },
+        {
+          "title": "2) Executar MongoDB em um contêiner",
+          "text": "step3.md"
+        },
+        {
+          "title": "Docker run",
+          "text": "step4.md"
+        },
+        {
+          "title": "Docker ps",
+          "text": "step5.md"
+        },
+        {
+          "title": "Uma nota sobre dockerizar banco de dados",
+          "text": "step6.md"
+        },
+        {
+          "title": "Cozinhando dados para desenvolvimento local",
+          "text": "step7.md"
+        },
+        {
+          "title": "Criando o artefato",
+          "text": "step8.md"
         }
       ],
       "intro": {

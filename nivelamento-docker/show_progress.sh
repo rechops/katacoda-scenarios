@@ -1,4 +1,5 @@
 #!/bin/bash
+unset -e
 
 show_progress()
 {
@@ -8,7 +9,7 @@ show_progress()
   local spinstr='\|/-'
   local temp
   while true; do 
-    sudo grep -i "done" /root/java-install-finished &> /dev/null
+    grep -i "done" /root/java-install-finished &> /dev/null
     if [[ "$?" -ne 0 ]]; then     
       temp="${spinstr#?}"
       printf " [%c]  " "${spinstr}"
@@ -24,7 +25,7 @@ show_progress()
   echo "Java 8 Installed"
   echo -n "Pulling images"
   while true; do 
-    sudo grep -i "done" /root/docker-images-finished &> /dev/null
+    grep -i "done" /root/docker-images-finished &> /dev/null
     if [[ "$?" -ne 0 ]]; then     
       temp="${spinstr#?}"
       printf " [%c]  " "${spinstr}"

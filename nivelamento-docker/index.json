@@ -43,10 +43,10 @@
             "code": "intro-foreground.sh"
         },
         "assets": {
-            "host01": [
+            "client": [
                 {
                     "file": "*",
-                    "target": "/usr/local/bin/",
+                    "target": "~/",
                     "chmod": "+x"
                 }
             ]

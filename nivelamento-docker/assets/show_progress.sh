@@ -26,8 +26,9 @@ print_progress()
 
 show_progress()
 {
-  print_progress "Installing Java 8" /root/java-install-finished "Java 8 Installed"
-  print_progress "Pulling images" /root/docker-images-finished "Docker images done"
+  print_progress "Configurando ambiente 1/2 - Instalando Java 8" /root/java-install-finished "Java 8 Instalado"
+  print_progress "Configurando ambiente 2/2 - Baixando imagens Docker" /root/docker-images-finished "Imagens Docker baixadas"
+  echo "Ambiente pronto!"
 }
 
 show_progress

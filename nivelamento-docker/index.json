@@ -35,6 +35,10 @@
             {
                 "title": "Criando o artefato",
                 "text": "step8.md"
+            },
+            {
+                "title": "Criando um Dockerfile para a aplicação",
+                "text": "step9.md"
             }
         ],
         "intro": {
@@ -45,9 +49,13 @@
         "assets": {
             "client": [
                 {
-                    "file": "*",
+                    "file": "show_progress.sh",
                     "target": "~/",
                     "chmod": "+x"
+                },
+                {
+                    "file": "Dockerfile",
+                    "target": "~/tutorial/"
                 }
             ]
         }

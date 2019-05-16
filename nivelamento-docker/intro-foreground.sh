@@ -1,1 +1,1 @@
-sleep 1; show_progress.sh
+sleep 1; pwd; /home/scrapbook/show_progress.sh

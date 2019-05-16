@@ -46,7 +46,7 @@
             "client": [
                 {
                     "file": "*",
-                    "target": "~/tutorial/",
+                    "target": "~/",
                     "chmod": "+x"
                 }
             ]

@@ -1,0 +1,9 @@
+- Mantenha contêineres o mais efêmero (curta duração) possível;
+- Siga o Princípio 6 do [12 Factor App](https://12factor.net/pt_br/processes);
+- Evite incluir arquivos desnecessários. Eventualmente, use `.dockerignore`;
+- Utilize compilação em múltiplas etapas;
+- Não instale pacotes desnecessários;
+- Desacople aplicações. Um contêiner por aplicação.
+- Minimize o número de camadas;
+- Ordene seus argumentos;
+- Utilize váriaveis de ambientes para configurar sua aplicação;

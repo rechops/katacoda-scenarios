@@ -1,6 +1,4 @@
-#### Atividade
-
-5) Escrever um Dockerfile para aplicação que construa o binário e execute a aplicação;
+Escreva um Dockerfile para aplicação que construa o binário e execute a aplicação;
 
 
 #### Execução

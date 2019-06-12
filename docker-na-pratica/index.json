@@ -4,7 +4,7 @@
     "details": {
         "steps": [
             {
-                "title": "1) Verifique se Docker está funcionando na sua máquina",
+                "title": "Verifique se Docker está funcionando na sua máquina",
                 "text": "step1.md"
             },
             {
@@ -12,7 +12,7 @@
                 "text": "step2.md"
             },
             {
-                "title": "2) Executar MongoDB em um contêiner",
+                "title": "Executar MongoDB em um contêiner",
                 "text": "step3.md",
                 "verify": "step3-verify.sh"
             },
@@ -39,6 +39,30 @@
             {
                 "title": "Criando um Dockerfile para a aplicação",
                 "text": "step9.md"
+            },
+            {
+                "title": "Dockerfile",
+                "text": "step10.md"
+            },
+            {
+                "title": "Dockerfile - Boas práticas",
+                "text": "step11.md"
+            },
+            {
+                "title": "Contruir uma imagem para a aplicação",
+                "text": "step12.md"
+            },
+            {
+                "title": "Docker build",
+                "text": "step13.md"
+            },
+            {
+                "title": "Eliminar o contêiner MongoDB",
+                "text": "step14.md"
+            },
+            {
+                "title": "Docker kill | ps | rm",
+                "text": "step15.md"
             }
         ],
         "intro": {

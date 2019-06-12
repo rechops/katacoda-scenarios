@@ -1,1 +1,1 @@
-sleep 1; /home/scrapbook/show_progress.sh
+# sleep 1; /home/scrapbook/show_progress.sh

@@ -63,6 +63,18 @@
             {
                 "title": "",
                 "text": "step15.md"
+            },
+            {
+                "title": "MongoDB sem porta de conexão",
+                "text": "step16.md"
+            },
+            {
+                "title": "Docker run: conectando as coisas",
+                "text": "step17.md"
+            },
+            {
+                "title": "Limpando imagem",
+                "text": "step18.md"
             }
         ],
         "intro": {

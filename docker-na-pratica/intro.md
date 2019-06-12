@@ -1,4 +1,4 @@
-# Exercício de Nivelamento de Docker
+# Exercício de Docker na prática
 
 
 Esse exercício foi criado como uma continuação da parte teórica do conteúdo iniciado neste link: https://rodrigohrech.github.io/treinamento-docker/

@@ -26,10 +26,13 @@ print_progress()
 
 show_progress()
 {
+  start=`date +%s`
+
   print_progress "Configurando ambiente 1/3 - Instalando Java 8" /root/java-install-finished "Java 8 Instalado"
   print_progress "Configurando ambiente 2/3 - Baixando imagens Docker" /root/docker-images-finished "Imagens Docker baixadas"
   print_progress "Configurando ambiente 3/3 - Configurando voter-service" /root/voter-service-pre-build-finished "Voter Service Configurado"
-  echo "Ambiente pronto!"
+
+  echo "Ambiente pronto! - $((($(date +%s)-$start)/60)) minutes"
 }
 
 show_progress

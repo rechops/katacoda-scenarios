@@ -1,19 +1,11 @@
-# Docker kill
+Execute um novo contêiner do MongoDB sem expor a porta de conexão;
 
-Mata um ou mais contêiners que estejam sendo executados
+#### Execução
 
-Utilização:
-`docker kill CONTAINER ID | NOME`
+`docker run --rm -d --name voter-mongo mongo`{{execute}}
 
-# Docker ps
+**--rm** Automaticamente remove o contêiner quanto sair.
 
-`docker ps -a`
+**-d, --detach**  Executa um contêiner em *background* e imprime o ID do contêiner.
 
-**-a, --all** lista todos containers (Por default, somente mostra os que estão executando)
-
-
-# Docker rm
-
-Remove um ou mais contêiners
-
-`docker rm CONTAINER ID | NOME`
+**--name** Atribui um nome custom para o contêiner (default gera um random)

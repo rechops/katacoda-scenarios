@@ -1,10 +1,7 @@
+O comando `docker ps` lista todos os contêiners do hospedeiro.
+
+Utilização:
 
 ```
-docker run -d -p 27017:27017 --name voter-mongo mongo
+docker ps
 ```
-
-**-d, --detach**  Executa um contêiner em *background* e imprime o ID do contêiner.
-
-**-p, --publish *hostPort:containerPort*** Publica a(s) porta(s) do contêiner na máquina hospedeira.
-
-**--name** Atribui um nome custom para o contêiner (por padrão gera um randômico)

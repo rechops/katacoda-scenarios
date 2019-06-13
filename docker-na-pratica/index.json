@@ -17,64 +17,60 @@
                 "verify": "step3-verify.sh"
             },
             {
-                "title": "Docker run",
+                "title": "Docker ps",
                 "text": "step4.md"
             },
             {
-                "title": "Docker ps",
+                "title": "Uma nota sobre dockerizar banco de dados",
                 "text": "step5.md"
             },
             {
-                "title": "Uma nota sobre dockerizar banco de dados",
+                "title": "Cozinhando dados para desenvolvimento local",
                 "text": "step6.md"
             },
             {
-                "title": "Cozinhando dados para desenvolvimento local",
+                "title": "Criando o artefato",
                 "text": "step7.md"
             },
             {
-                "title": "Criando o artefato",
+                "title": "Criando um Dockerfile para a aplicação",
                 "text": "step8.md"
             },
             {
-                "title": "Criando um Dockerfile para a aplicação",
+                "title": "Dockerfile",
                 "text": "step9.md"
             },
             {
-                "title": "Dockerfile",
+                "title": "Dockerfile - Boas práticas",
                 "text": "step10.md"
             },
             {
-                "title": "Dockerfile - Boas práticas",
+                "title": "Contruir uma imagem para a aplicação",
                 "text": "step11.md"
             },
             {
-                "title": "Contruir uma imagem para a aplicação",
+                "title": "Docker build",
                 "text": "step12.md"
             },
             {
-                "title": "Docker build",
+                "title": "Eliminar o contêiner MongoDB",
                 "text": "step13.md"
             },
             {
-                "title": "Eliminar o contêiner MongoDB",
+                "title": "",
                 "text": "step14.md"
             },
             {
-                "title": "",
+                "title": "MongoDB sem porta de conexão",
                 "text": "step15.md"
             },
             {
-                "title": "MongoDB sem porta de conexão",
+                "title": "Docker run: conectando as coisas",
                 "text": "step16.md"
             },
             {
-                "title": "Docker run: conectando as coisas",
-                "text": "step17.md"
-            },
-            {
                 "title": "Limpando imagem",
-                "text": "step18.md"
+                "text": "step17.md"
             }
         ],
         "intro": {

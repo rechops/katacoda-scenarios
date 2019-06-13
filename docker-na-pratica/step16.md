@@ -1,11 +1,13 @@
-Execute um novo contêiner do MongoDB sem expor a porta de conexão;
+Execute o contêiner da aplicação, conectando com o contêiner do MongoDB;
 
 #### Execução
 
-`docker run --rm -d --name voter-mongo mongo`{{execute}}
+`docker run --rm -p 8099:8099 --name voter-registration-web --link voter-mongo:mongo voter-registration/web`{{execute}}
 
 **--rm** Automaticamente remove o contêiner quanto sair.
 
-**-d, --detach**  Executa um contêiner em *background* e imprime o ID do contêiner.
+**-p, --publish *hostPort:containerPort*** Publica a(s) porta(s) do contêiner na máquina hospedeira.
 
-**--name** Atribui um nome custom para o contêiner (default gera um random)
+**--link _list_(nome:alias)**  Adiciona uma conexão com outros contêiners
+
+Execute o seguinte comando no Terminal 2: `curl localhost:8099`{{execute T2}}

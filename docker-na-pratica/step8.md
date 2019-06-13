@@ -1,18 +1,15 @@
-#### Atividade
-
-3) Clonar o repositório da API de votação;
-
-4) (Opcional) Executar localmente a aplicação (requer Java 8 configurado);
+Escreva um Dockerfile para aplicação que construa o binário e execute a aplicação;
 
 
-`git clone --depth 1 --branch master https://github.com/ThoughtWorksInc/voter-service.git`{{execute}}
+#### Execução
 
-`cd voter-service`{{execute}}
+Copie o conteúdo abaixo para o arquivo chamado `Dockerfile`:
 
-`./gradlew clean build -x test`{{execute}}
-
-`java -jar build/libs/voter-service-0.2.0.jar`{{execute}}
-
-
-
-Execute o seguinte comando no Terminal 2: `curl localhost:8099`{{execute T2}}
+`
+FROM openjdk:8u181-jdk
+COPY ./voter-service ./usr/local/voter-service
+WORKDIR /usr/local/voter-service
+RUN ./gradlew clean build -x test
+EXPOSE 8099
+CMD ["java", "-jar", "build/libs/voter-service-0.2.0.jar", "--spring.data.mongodb.host=voter-mongo"]
+`{{copy}}

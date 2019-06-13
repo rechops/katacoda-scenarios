@@ -1,4 +1,4 @@
-* Tenha bastante cuidado em dockerizar banco de dados
-* Docker é normalmente utilizado para aplicações sem estado
-* Quando um contêiner para, quaisquer dados armazenados nele são perdidos
-* Volumes podem ser montados junto ao Docker para persistir dados
+- Como `db/seeds.rb` do Ruby, podemos ter uma base de dados em contêiner com informações pré-inicializadas para desenvolvimento local;
+- Dados para testes e cenários importantes para testar durante o desenvolvimento;
+- Ter um contêiner com dados possibilita reduzir o impacto de manter toda manutenção de um Banco de Dados na sua máquina ou na nuvem;
+- Existe um porém: requer maturidade do time em evoluir esse banco de acordo com o progresso do seu produto;

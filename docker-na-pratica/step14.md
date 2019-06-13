@@ -1,12 +1,19 @@
+# Docker kill
 
-Pare e elimine o contêiner do MongoDB que foi executado;
+Mata um ou mais contêiners que estejam sendo executados
 
-#### Execução
+Utilização:
+`docker kill CONTAINER ID | NOME`
 
-`docker ps`{{execute}}
+# Docker ps
 
-`docker kill voter-mongo`{{execute}}
+`docker ps -a`
 
-`docker ps -a`{{execute}}
+**-a, --all** lista todos containers (Por default, somente mostra os que estão executando)
 
-`docker rm voter-mongo`{{execute}}
+
+# Docker rm
+
+Remove um ou mais contêiners
+
+`docker rm CONTAINER ID | NOME`

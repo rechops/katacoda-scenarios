@@ -1,4 +1,18 @@
-- Como `db/seeds.rb` do Ruby, podemos ter uma base de dados em contêiner com informações pré-inicializadas para desenvolvimento local;
-- Dados para testes e cenários importantes para testar durante o desenvolvimento;
-- Ter um contêiner com dados possibilita reduzir o impacto de manter toda manutenção de um Banco de Dados na sua máquina ou na nuvem;
-- Existe um porém: requer maturidade do time em evoluir esse banco de acordo com o progresso do seu produto;
+#### Atividade
+
+3) Clonar o repositório da API de votação;
+
+4) (Opcional) Executar localmente a aplicação (requer Java 8 configurado);
+
+
+`git clone --depth 1 --branch master https://github.com/ThoughtWorksInc/voter-service.git`{{execute}}
+
+`cd voter-service`{{execute}}
+
+`./gradlew clean build -x test`{{execute}}
+
+`java -jar build/libs/voter-service-0.2.0.jar`{{execute}}
+
+
+
+Execute o seguinte comando no Terminal 2: `curl localhost:8099`{{execute T2}}
